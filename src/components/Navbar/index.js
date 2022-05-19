@@ -5,7 +5,7 @@ const Navbar = (props) => {
 
   return (
     <header>
-      <p>DANIKA PEARSON</p>
+      <p>MOOD CHECKER</p>
       <nav>
         <ul>
           <li className="mx-2">
