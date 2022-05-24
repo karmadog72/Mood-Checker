@@ -9,17 +9,18 @@ const Moods = (props) => {
       <div>
         <p>WHATS YOUR MOOD RIGHT NOW?</p>
         <ul className="mood-list">
-          <li>ANGRY</li>
-          <li>SAD</li>
-          <li>DEPRESSED</li>
-          <li>ANXIOUS</li>
-          <li>MANIC</li>
-          <li>SICK</li>
-          <li>IDK BUT NOT GOOD</li>
-          <li>PANICKY</li>
-          <li>PANIC ATTACK</li>
-          <li>ANXIETY ATTACK</li>
-          <li>HAPPY</li>
+          <li>HAPPY 😁</li>
+          <li>ANGRY 😡</li>
+          <li>SAD 😢</li>
+          <li>DEPRESSED 😞</li>
+          <li>ANXIOUS 😨</li>
+          <li>MANIC 😵‍💫</li>
+          <li>SICK 🤢</li>
+          <li>IDK, BUT NOT GOOD ☹️</li>
+          <li>PANICKY 😖</li>
+          <li>PANIC ATTACK 😱</li>
+          <li>ANXIETY ATTACK 😭</li>
+          <li>SUICIDAL 💀</li>
         </ul>
         <p>EDUCATION:</p>
         <ul>
