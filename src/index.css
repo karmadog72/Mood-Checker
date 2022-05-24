@@ -150,7 +150,7 @@ button {
   color: red;
 }
 
-.about-container {
+.moods-container {
   display: flex;
   flex-wrap: row wrap;
   margin-top: 40px;
@@ -172,11 +172,11 @@ button {
   width: 100px;
   height: 100px;
 }
-.about-container p {
+.moods-container p {
   margin: 20px 0 0 50px;
 }
 
-.about-container button {
+.moods-container button {
   margin: 50px 0 0 50px;
 }
 
@@ -185,7 +185,7 @@ li {
   margin: 20px 0 0 40px;
 }
 
-.stack-list li {
+.mood-list li {
   margin: 0 0 0 40px;
 }
 
@@ -268,10 +268,10 @@ footer nav ul li a:hover {
     margin-top: 20px;
     position: static;
   }
-  .about-container {
+  .moods-container {
     flex-wrap: wrap-reverse;
   }
-  .about-container p {
+  .moods-container p {
     margin-left: 0;
   }
   .modal-container a {

@@ -1,36 +1,25 @@
 import React from "react";
 import Me from "../../assets/me.jpg";
 
-const About = (props) => {
+const Moods = (props) => {
   const { setContactSelected } = props;
 
   return (
-    <section className="about-container">
+    <section className="moods-container">
       <div>
-        <p>
-          Hi, my name is Danika Pearson, I've recently earned a certificate in
-          Full Stack Web Development from The University of Utah. <br /> I’m
-          excited to leverage my skills as part of a fast-paced, quality-driven
-          team to build better experiences on the web.
-        </p>
-
-        <p>
-          When I'm not coding, I enjoy painting, puzzles, going to concerts and
-          hanging with dogs.
-        </p>
-        <p>LANGUAGES:</p>
-        <ul className="stack-list">
-          <li>HTML5, CSS and JavaScript</li>
-          <li>MERN</li>
-          <li>SQL/NoSQL</li>
-          <li>Handlebars.JS</li>
-          <li>Bootstrap</li>
-          <li>Bulma</li>
-          <li>jQuery</li>
-          <li>Insomnia</li>
-          <li>SPA</li>
-          <li>PWA</li>
-          <li>GitHub</li>
+        <p>WHATS YOUR MOOD RIGHT NOW?</p>
+        <ul className="mood-list">
+          <li>ANGRY</li>
+          <li>SAD</li>
+          <li>DEPRESSED</li>
+          <li>ANXIOUS</li>
+          <li>MANIC</li>
+          <li>SICK</li>
+          <li>IDK BUT NOT GOOD</li>
+          <li>PANICKY</li>
+          <li>PANIC ATTACK</li>
+          <li>ANXIETY ATTACK</li>
+          <li>HAPPY</li>
         </ul>
         <p>EDUCATION:</p>
         <ul>
@@ -55,4 +44,4 @@ const About = (props) => {
   );
 };
 
-export default About;
+export default Moods;
