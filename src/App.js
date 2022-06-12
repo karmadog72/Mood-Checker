@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Waves from "./assets/waves.mp4";
-import ProjectCard from "./components/ProjectCard";
+import MoodCard from "./components/MoodCard";
 import ContactForm from "./components/ContactForm";
 import Moods from "./components/Moods";
 import Footer from "./components/Footer";
@@ -20,7 +20,7 @@ function App() {
       />
       {!moodsSelected ? (
         <>
-          <ProjectCard />
+          <MoodCard />
         </>
       ) : (
         <>

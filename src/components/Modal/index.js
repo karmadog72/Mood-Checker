@@ -1,13 +1,21 @@
 import React from "react";
 
 const Modal = ({ onClose, currentPhoto }) => {
-  const { name, description, caption, stack, role, github, deployment, index } =
-    currentPhoto;
+  const {
+    mood,
+    description,
+    caption,
+    stack,
+    role,
+    github,
+    deployment,
+    index,
+  } = currentPhoto;
 
   return (
     <div className="modal-backdrop">
       <div className="modal-container">
-        <h3 className="modal-title">{name}</h3>
+        <h3 className="modal-title">{mood}</h3>
         {/* <img
           src={require(`../../assets/projects/${index}.jpg`).default}
           alt={caption}

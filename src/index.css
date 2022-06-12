@@ -13,14 +13,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.1em;
   background: rgb(4, 5, 46);
+  /* body text color */
   color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px #000000;
   font-size: 20px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* navbar */
 a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -75,7 +78,7 @@ header nav ul li a:hover {
   overflow: hidden;
 }
 
-.project-name {
+.mood-name {
   position: relative;
   text-align: center;
   font-size: larger;
@@ -85,11 +88,11 @@ header nav ul li a:hover {
   z-index: 10;
 }
 
-.project-name:hover {
+.mood-name:hover {
   color: hsl(177, 52%, 54%);
 }
 
-.project-name:hover + img {
+.mood-name:hover + img {
   clip-path: view-box;
   opacity: 1;
 }
@@ -125,6 +128,7 @@ textarea {
   margin-bottom: 10px;
 }
 
+/* modal close btn */
 button {
   width: 125px;
   height: 50px;
@@ -137,7 +141,7 @@ button {
   margin-right: 20px;
   border-radius: 45%;
 }
-
+/* resume close btn */
 .close-button {
   width: 30px;
   height: 30px;
@@ -235,7 +239,7 @@ footer nav ul li a:hover {
 }
 
 .modal-backdrop {
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(198, 245, 247, 0.863);
   bottom: 0;
   left: 0;
   overflow: auto;
@@ -287,7 +291,7 @@ footer nav ul li a:hover {
   .project-img img {
     opacity: 1;
   }
-  .project-name {
+  .mood-name {
     color: hsl(180, 100%, 50%);
   }
   header {
