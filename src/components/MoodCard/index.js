@@ -61,7 +61,7 @@ const MoodCard = () => {
     },
 
     {
-      mood: "MALAISE",
+      mood: "MALAISE/uneasy?",
       description: "My 1st ever web developer portfolio.",
       stack: "HTML, CSS",
       role: "Developed entire application",
@@ -127,6 +127,7 @@ const MoodCard = () => {
 
   return (
     <section>
+      <p>WHATS YOUR MOOD RIGHT NOW?</p>
       <div>
         {isModalOpen && (
           <Modal currentPhoto={currentPhoto} onClose={toggleModal} />
@@ -138,6 +139,7 @@ const MoodCard = () => {
             <p className="mood-name" onClick={() => toggleModal(image, i)}>
               {image.caption}
             </p>
+
             {/* <img
               src={require(`../../assets/projects/${i}.jpg`).default}
               alt={image.name}

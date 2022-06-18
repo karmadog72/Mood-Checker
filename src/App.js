@@ -3,28 +3,28 @@ import Navbar from "./components/Navbar";
 import Waves from "./assets/waves.mp4";
 import MoodCard from "./components/MoodCard";
 import ContactForm from "./components/ContactForm";
-import Moods from "./components/Moods";
+import Affirmations from "./components/Affirmations";
 import Footer from "./components/Footer";
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
-  const [moodsSelected, setMoodsSelected] = useState(false);
+  const [affirmationsSelected, setAffirmationsSelected] = useState(false);
 
   return (
     <div>
       <Navbar
-        moodsSelected={moodsSelected}
-        setMoodsSelected={setMoodsSelected}
+        affirmationsSelected={affirmationsSelected}
+        setAffirmationsSelected={setAffirmationsSelected}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       />
-      {!moodsSelected ? (
+      {!affirmationsSelected ? (
         <>
           <MoodCard />
         </>
       ) : (
         <>
-          <Moods setContactSelected={setContactSelected} />
+          <Affirmations setContactSelected={setContactSelected} />
         </>
       )}
 
