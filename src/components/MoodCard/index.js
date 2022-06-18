@@ -40,8 +40,7 @@ const MoodCard = () => {
     },
     {
       mood: "ANXIOUS",
-      description:
-        "A tech blog to publish articles, comment on / post thoughts, opinions and general information",
+      description: "3-3-3 RULE",
       stack:
         "Express-handlebars, MySQL2, Sequelize, dotenv, bcrypt, express-session, connect-session-sequelize, Heroku",
       role: "Developed entire application",
@@ -61,11 +60,11 @@ const MoodCard = () => {
     },
 
     {
-      mood: "MALAISE/uneasy?",
+      mood: "UNEASY / AGITATED",
       description: "My 1st ever web developer portfolio.",
       stack: "HTML, CSS",
       role: "Developed entire application",
-      caption: "☹️ MALAISE",
+      caption: "☹️ UNEASY / AGITATED",
       github: "https://github.com/karmadog72/portfolio-challenge-",
       deployment: "https://karmadog72.github.io/portfolio-challenge-/",
     },
@@ -127,7 +126,7 @@ const MoodCard = () => {
 
   return (
     <section>
-      <p>WHATS YOUR MOOD RIGHT NOW?</p>
+      <p className="mood-header">WHATS YOUR MOOD RIGHT NOW?</p>
       <div>
         {isModalOpen && (
           <Modal currentPhoto={currentPhoto} onClose={toggleModal} />
