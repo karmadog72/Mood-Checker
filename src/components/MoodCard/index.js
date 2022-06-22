@@ -6,10 +6,10 @@ const MoodCard = () => {
     {
       mood: "ANGRY",
       description:
-        "Welcome to SYNTAX! Hire, Connect & Collaborate in our world of coding!",
-      stack:
+        "DEFINITION: Feeling or showing strong annoyance, displeasure, or hostility; full of anger.",
+      solutions:
         "ReactJS, MySelect-React, CSS, MongoDB Atlas, Debugging, Heroku Deployment",
-      role: "ReactJS, MySelect-React, CSS, Debugging",
+      resources: "ReactJS, MySelect-React, CSS, Debugging",
       caption: "😡 ANGRY",
       github: "https://github.com/karmadog72/Syntax",
       deployment: "https://syntax-uofu.herokuapp.com",
@@ -17,10 +17,10 @@ const MoodCard = () => {
     {
       mood: "SAD",
       description:
-        "AL-Together helps people with memory loss navigate daily life, with use of our website",
-      stack:
+        "DEFINITION: Feeling down or unhappy in response to grief, discouragement, or disappointment",
+      solutions:
         "HTML CSS JavaScript and CSS library 'Bulma'. 'Jquery' was also used for a JavaScript library along side that, MomentJs was included to help with time. Finally we included 2 API's. 1 being a COVID API to keep the user updated with the current active cases in the US. The other API is a weather so that the user can have the ease of checking the weather on the landing page.",
-      role:
+      resources:
         "HTML, Bulma, MomentJs, COVID API . (Footer & Medication Schedule page)",
       caption: "😢 SAD",
       github: "https://github.com/karmadog72/AL-together",
@@ -30,29 +30,30 @@ const MoodCard = () => {
     {
       mood: "DEPRESSED",
       description:
-        "A user-friendly allergen filtered grocery application created for those who struggle with finding grocery products excluding their allergies",
-      stack:
+        "DEFINITION: In a state of general unhappiness or despondency,a mood disorder that causes a persistent feeling of sadness and loss of interest. ",
+      solutions:
         "Node, Express, Handlebars, MySQL, Rapid API-Spoonacular, Sequelize, Heroku.",
-      role: "Handlebars & CSS",
+      resources: "Handlebars & CSS",
       caption: "😞 DEPRESSED",
       github: "https://github.com/karmadog72/Allergy-Finder",
       deployment: "https://whispering-chamber-78611.herokuapp.com/",
     },
     {
       mood: "ANXIOUS",
-      description: "3-3-3 RULE",
-      stack:
-        "Express-handlebars, MySQL2, Sequelize, dotenv, bcrypt, express-session, connect-session-sequelize, Heroku",
-      role: "Developed entire application",
+      description:
+        "DEFINITION: Experiencing worry, unease, or nervousness, typically about an imminent event or something with an uncertain outcome.",
+      solutions: "3-3-3 RULE",
+      resources: "Developed entire application",
       caption: "😨 ANXIOUS",
       github: "https://github.com/karmadog72/CMS-BLOG",
       deployment: "https://murmuring-meadow-54235.herokuapp.com/",
     },
     {
       mood: "SICK",
-      description: "An app to help people generate a random password",
-      stack: "Script.js, CSS, HTML",
-      role: "Developed entire application",
+      description:
+        "DEFINITION: Affected with disease or ill health, unwell feeling",
+      solutions: "Script.js, CSS, HTML",
+      resources: "Developed entire application",
       caption: "🤢 SICK",
       github: "https://github.com/karmadog72/JavaScript-Password-Challenge-",
       deployment:
@@ -61,54 +62,60 @@ const MoodCard = () => {
 
     {
       mood: "UNEASY / AGITATED",
-      description: "My 1st ever web developer portfolio.",
-      stack: "HTML, CSS",
-      role: "Developed entire application",
+      description:
+        "DEFINITION: Causing or feeling anxiety or nervousness; troubled or uncomfortable.",
+      solutions: "HTML, CSS",
+      resources: "Developed entire application",
       caption: "☹️ UNEASY / AGITATED",
       github: "https://github.com/karmadog72/portfolio-challenge-",
       deployment: "https://karmadog72.github.io/portfolio-challenge-/",
     },
     {
       mood: "STRESSED / OVERWHELMED",
-      description: "My 1st ever web developer portfolio.",
-      stack: "HTML, CSS",
-      role: "Developed entire application",
+      description:
+        "DEFINITION: Experiencing mental or emotional strain or tension; an overpowering or excessive amount of anything:",
+      solutions: "HTML, CSS",
+      resources: "Developed entire application",
       caption: "😖 STRESSED / OVERWHELMED",
       github: "https://github.com/karmadog72/portfolio-challenge-",
       deployment: "https://karmadog72.github.io/portfolio-challenge-/",
     },
     {
       mood: "PANIC ATTACK",
-      description: "My 1st ever web developer portfolio.",
-      stack: "HTML, CSS",
-      role: "Developed entire application",
+      description:
+        "DEFINITION: Is a sudden episode of intense fear that triggers severe physical reactions when there is no real danger or apparent cause. Can cause increased heart rate, shortness of breath, trembling and muscle tension. ",
+      solutions: "HTML, CSS",
+      resources: "Developed entire application",
       caption: "😱 PANIC ATTACK",
       github: "https://github.com/karmadog72/portfolio-challenge-",
       deployment: "https://karmadog72.github.io/portfolio-challenge-/",
     },
     {
       mood: "ANXIETY ATTACK",
-      description: "My 1st ever web developer portfolio.",
-      stack: "HTML, CSS",
-      role: "Developed entire application",
+      description:
+        "DEFINITION: An anxiety attack is a sudden and intense episode of fear and anxiety. These anxiety attacks can sometimes occur unexpectedly for no apparent reason, but they can also be linked to specific triggers.",
+      solutions: "HTML, CSS",
+      resources: "Developed entire application",
       caption: "😵‍💫 ANXIETY ATTACK",
       github: "https://github.com/karmadog72/portfolio-challenge-",
       deployment: "https://karmadog72.github.io/portfolio-challenge-/",
     },
     {
       mood: "SUICIDAL",
-      description: "My 1st ever web developer portfolio.",
-      stack: "HTML, CSS",
-      role: "Developed entire application",
+      description:
+        "DEFINITION: Thinking about or planning suicide; Deeply unhappy or depressed and likely to commit suicide.",
+      solutions: "HTML, CSS",
+      resources: "Developed entire application",
       caption: "💀 SUICIDAL",
       github: "https://github.com/karmadog72/portfolio-challenge-",
       deployment: "https://karmadog72.github.io/portfolio-challenge-/",
     },
     {
       mood: "HAPPY / CONTENT",
-      description: "My 1st ever web developer portfolio.",
-      stack: "HTML, CSS",
-      role: "Developed entire application",
+      description:
+        "DEFINITION: Feeling or showing pleasure or contentment; A state of satisfaction.",
+      solutions: "HTML, CSS",
+      resources: "Developed entire application",
       caption: " 😁 HAPPY / CONTENT ",
       github: "https://github.com/karmadog72/portfolio-challenge-",
       deployment: "https://karmadog72.github.io/portfolio-challenge-/",

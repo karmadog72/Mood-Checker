@@ -5,8 +5,8 @@ const Modal = ({ onClose, currentPhoto }) => {
     mood,
     description,
     caption,
-    stack,
-    role,
+    solutions,
+    resources,
     github,
     deployment,
     index,
@@ -21,8 +21,8 @@ const Modal = ({ onClose, currentPhoto }) => {
           alt={caption}
         /> */}
         <p>{description}</p>
-        <p>STACK/DEPENDENCIES - {stack}</p>
-        <p>MY ROLE - {role}</p>
+        <p>SOLUTIONS - {solutions}</p>
+        <p>RESOURCES - {resources}</p>
         <a
           className="modal-button"
           target="_blank"
