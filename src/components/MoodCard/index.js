@@ -8,7 +8,7 @@ const MoodCard = () => {
       description:
         "DEFINITION: Feeling or showing strong annoyance, displeasure, or hostility; full of anger.",
       solutions:
-        "ReactJS, MySelect-React, CSS, MongoDB Atlas, Debugging, Heroku Deployment",
+        "Count down from 100 | Breathe 3-9-6/ Breathe in through your nose for 3 counts, hold for 9 counts, exhale through mouth 9 counts.) | Take a timeout, typically in a quite space away from others. | Call a trusted friend or family member, to help provide a new perspective | Take a walk ",
       resources: "ReactJS, MySelect-React, CSS, Debugging",
       caption: "😡 ANGRY",
       github: "https://github.com/karmadog72/Syntax",
@@ -20,6 +20,7 @@ const MoodCard = () => {
         "DEFINITION: Feeling down or unhappy in response to grief, discouragement, or disappointment",
       solutions:
         "HTML CSS JavaScript and CSS library 'Bulma'. 'Jquery' was also used for a JavaScript library along side that, MomentJs was included to help with time. Finally we included 2 API's. 1 being a COVID API to keep the user updated with the current active cases in the US. The other API is a weather so that the user can have the ease of checking the weather on the landing page.",
+      list: "stuff and things",
       resources:
         "HTML, Bulma, MomentJs, COVID API . (Footer & Medication Schedule page)",
       caption: "😢 SAD",
