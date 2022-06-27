@@ -7,6 +7,10 @@ const Modal = ({ onClose, currentPhoto }) => {
     caption,
     solutions,
     list,
+    list2,
+    list3,
+    list4,
+    list5,
     resources,
     github,
     deployment,
@@ -26,10 +30,10 @@ const Modal = ({ onClose, currentPhoto }) => {
           SOLUTIONS - {solutions}
           <ul>
             <li>{list}</li>
-            <li>{list}</li>
-            <li>{list}</li>
-            <li>{list}</li>
-            <li>{list}</li>
+            <li>{list2}</li>
+            <li>{list3}</li>
+            <li>{list4}</li>
+            <li>{list5}</li>
           </ul>
         </p>
         <p>RESOURCES - {resources}</p>
