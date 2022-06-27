@@ -12,7 +12,7 @@ const Modal = ({ onClose, currentPhoto }) => {
     list4,
     list5,
     resources,
-    github,
+    guide,
     deployment,
     index,
   } = currentPhoto;
@@ -27,7 +27,7 @@ const Modal = ({ onClose, currentPhoto }) => {
         /> */}
         <p>{description}</p>
         <p>
-          SOLUTIONS - {solutions}
+          QUICK SOLUTIONS: {solutions}
           <ul>
             <li>{list}</li>
             <li>{list2}</li>
@@ -40,10 +40,10 @@ const Modal = ({ onClose, currentPhoto }) => {
         <a
           className="modal-button"
           target="_blank"
-          href={github}
+          href={guide}
           rel="noreferrer"
         >
-          GitHub Repo
+          Guided Video
         </a>
         <a
           className="modal-button"

@@ -8,15 +8,17 @@ const MoodCard = () => {
       description:
         "DEFINITION: Feeling or showing strong annoyance, displeasure, or hostility; full of anger.",
       solutions:
-        "Count down from 100 | Breathe 3-9-6/ Breathe in through your nose for 3 counts, hold for 9 counts, exhale through mouth 9 counts.) | Take a timeout, typically in a quite space away from others. | Call a trusted friend or family member, to help provide a new perspective | Take a walk ",
-      list: "stuff and things",
-      list2: "junk & stuff",
-      list3: "stuf",
-      list4: "sthings",
-      list5: "stuff an",
+        "Below are a few quick ways to help calm you down when you're feeling anger. If you are experiencing ongoing anger and or struggle to maintain a sense of calm consistently, please seek help from a mental health professional.",
+      list: "1. Count down from 100",
+      list2: "2. Take a walk",
+      list3:
+        "3. Call a trusted friend or family member, to help provide a new perspective ",
+      list4: "4. Take a timeout, typically in a quite space away from others.",
+      list5:
+        "5. Breathe 3-9-6/ Breathe in through your nose for 3 counts, hold for 9 counts, exhale through mouth 9 counts.)",
       resources: "ReactJS, MySelect-React, CSS, Debugging",
       caption: "😡 ANGRY",
-      github: "https://github.com/karmadog72/Syntax",
+      guide: "https://youtu.be/qX2btSkQxVk",
       deployment: "https://syntax-uofu.herokuapp.com",
     },
     {
@@ -33,7 +35,7 @@ const MoodCard = () => {
       resources:
         "HTML, Bulma, MomentJs, COVID API . (Footer & Medication Schedule page)",
       caption: "😢 SAD",
-      github: "https://github.com/karmadog72/AL-together",
+      guide: "https://github.com/karmadog72/AL-together",
       deployment:
         "https://lannylopez.github.io/AL-together/secondary-pages/meds.html",
     },
@@ -50,7 +52,7 @@ const MoodCard = () => {
       list5: "stuff an",
       resources: "Handlebars & CSS",
       caption: "😞 DEPRESSED",
-      github: "https://github.com/karmadog72/Allergy-Finder",
+      guide: "https://github.com/karmadog72/Allergy-Finder",
       deployment: "https://whispering-chamber-78611.herokuapp.com/",
     },
     {
@@ -65,7 +67,7 @@ const MoodCard = () => {
       list5: "stuff an",
       resources: "Developed entire application",
       caption: "😨 ANXIOUS",
-      github: "https://github.com/karmadog72/CMS-BLOG",
+      guide: "https://github.com/karmadog72/CMS-BLOG",
       deployment: "https://murmuring-meadow-54235.herokuapp.com/",
     },
     {
@@ -80,7 +82,7 @@ const MoodCard = () => {
       list5: "stuff an",
       resources: "Developed entire application",
       caption: "🤢 SICK",
-      github: "https://github.com/karmadog72/JavaScript-Password-Challenge-",
+      guide: "https://github.com/karmadog72/JavaScript-Password-Challenge-",
       deployment:
         "https://github.com/karmadog72/JavaScript-Password-Challenge-",
     },
@@ -97,7 +99,7 @@ const MoodCard = () => {
       list5: "stuff an",
       resources: "Developed entire application",
       caption: "☹️ UNEASY / AGITATED",
-      github: "https://github.com/karmadog72/portfolio-challenge-",
+      guide: "https://github.com/karmadog72/portfolio-challenge-",
       deployment: "https://karmadog72.github.io/portfolio-challenge-/",
     },
     {
@@ -112,7 +114,7 @@ const MoodCard = () => {
       list5: "stuff an",
       resources: "Developed entire application",
       caption: "😖 STRESSED / OVERWHELMED",
-      github: "https://github.com/karmadog72/portfolio-challenge-",
+      guide: "https://github.com/karmadog72/portfolio-challenge-",
       deployment: "https://karmadog72.github.io/portfolio-challenge-/",
     },
     {
@@ -127,7 +129,7 @@ const MoodCard = () => {
       list5: "stuff an",
       resources: "Developed entire application",
       caption: "😱 PANIC ATTACK",
-      github: "https://github.com/karmadog72/portfolio-challenge-",
+      guide: "https://github.com/karmadog72/portfolio-challenge-",
       deployment: "https://karmadog72.github.io/portfolio-challenge-/",
     },
     {
@@ -142,7 +144,7 @@ const MoodCard = () => {
       list5: "stuff an",
       resources: "Developed entire application",
       caption: "😵‍💫 ANXIETY ATTACK",
-      github: "https://github.com/karmadog72/portfolio-challenge-",
+      guide: "https://github.com/karmadog72/portfolio-challenge-",
       deployment: "https://karmadog72.github.io/portfolio-challenge-/",
     },
     {
@@ -157,7 +159,7 @@ const MoodCard = () => {
       list5: "stuff an",
       resources: "Developed entire application",
       caption: "💀 SUICIDAL",
-      github: "https://github.com/karmadog72/portfolio-challenge-",
+      guide: "https://github.com/karmadog72/portfolio-challenge-",
       deployment: "https://karmadog72.github.io/portfolio-challenge-/",
     },
     {
@@ -172,7 +174,7 @@ const MoodCard = () => {
       list5: "stuff an",
       resources: "Developed entire application",
       caption: " 😁 HAPPY / CONTENT ",
-      github: "https://github.com/karmadog72/portfolio-challenge-",
+      guide: "https://github.com/karmadog72/portfolio-challenge-",
       deployment: "https://karmadog72.github.io/portfolio-challenge-/",
     },
   ];
