@@ -11,7 +11,6 @@ const Modal = ({ onClose, currentPhoto }) => {
     list3,
     list4,
     list5,
-    resources,
     guide,
     meditate,
     index,
@@ -36,7 +35,6 @@ const Modal = ({ onClose, currentPhoto }) => {
             <li>{list5}</li>
           </ul>
         </p>
-        <p>RESOURCES - {resources}</p>
         <a
           className="modal-button"
           target="_blank"
