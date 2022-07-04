@@ -24,18 +24,20 @@ const MoodCard = () => {
     {
       mood: "SAD",
       description:
-        "DEFINITION: Feeling down or unhappy in response to grief, discouragement, or disappointment",
+        "DEFINITION: Feeling down or unhappy in response to grief, discouragement, or disappointment. If you are experiencing ongoing sadness that you just cant seem to shake, or struggle to maintain a sense of happy or contentment, please seek help from a mental health professional.",
       solutions:
-        "HTML CSS JavaScript and CSS library 'Bulma'. 'Jquery' was also used for a JavaScript library along side that, MomentJs was included to help with time. Finally we included 2 API's. 1 being a COVID API to keep the user updated with the current active cases in the US. The other API is a weather so that the user can have the ease of checking the weather on the landing page.",
-      list: "stuff and things",
-      list2: "junk & stuff",
-      list3: "stuf",
-      list4: "sthings",
-      list5: "stuff an",
+        "Below are a few quick ways to help you ease your feelings of sadness.",
+      list:
+        "1. Cry it out - Studies show that crying may have a relaxing effect, by releasing 'feel-good' endorphins.",
+      list2:
+        "2. Listen to music - Choose music that you find beautiful or uplifting, such as classical.",
+      list3:
+        "3. Take a warm bath / shower - Warmth has a comforting effect on the body. ",
+      list4: "4. Write down your feelings in a journal or diary ",
+      list5: "5. Hang out with an upbeat family member, friend or even a pet.",
       caption: "😢 SAD",
       guide: "https://github.com/karmadog72/AL-together",
-      meditate:
-        "https://lannylopez.github.io/AL-together/secondary-pages/meds.html",
+      meditate: "https://youtu.be/ug26l-2ktxA",
     },
     {
       mood: "DEPRESSED",
