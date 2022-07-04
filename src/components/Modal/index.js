@@ -13,7 +13,7 @@ const Modal = ({ onClose, currentPhoto }) => {
     list5,
     resources,
     guide,
-    deployment,
+    meditate,
     index,
   } = currentPhoto;
 
@@ -43,15 +43,15 @@ const Modal = ({ onClose, currentPhoto }) => {
           href={guide}
           rel="noreferrer"
         >
-          Guided Video
+          Resources
         </a>
         <a
           className="modal-button"
           target="_blank"
-          href={deployment}
+          href={meditate}
           rel="noreferrer"
         >
-          Deployed Application
+          Meditation
         </a>
         <button type="button" onClick={onClose}>
           Close
