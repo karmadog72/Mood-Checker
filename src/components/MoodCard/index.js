@@ -58,20 +58,21 @@ const MoodCard = () => {
         "5. Friends Family or Support group- Hang with a friend or family member. Find a support group, it can be helpful to express your feelings with relatable individuals.",
       caption: "😞 DEPRESSED",
       guide: "https://www.psychologytoday.com/us/basics/depression",
-      meditate: "https://youtu.be/xRxT9cOKiM8",
+      meditate: "https://youtu.be/Sxddnugwu-8",
     },
     {
       mood: "ANXIOUS",
       description:
-        "DEFINITION: Experiencing worry, unease, or nervousness, typically about an imminent event or something with an uncertain outcome.",
-      solutions: "3-3-3 RULE",
+        "DEFINITION: Both a mental and physical state of negative expectation, experiencing worry, unease, or nervousness, feelings of dread in anticipation of some bad outcome, jitteriness & racing heart.",
+      solutions:
+        "3-3-3 RULE Below are a few quick ways to help ease yourself when feeling anxious. If you are experiencing persistent feelings of anxiety, worry or dread, that interferes with your daily life, please seek help from a mental health professional",
       list: "stuff and things",
       list2: "junk & stuff",
       list3: "stuf",
       list4: "sthings",
       list5: "stuff an",
       caption: "😨 ANXIOUS",
-      guide: "https://github.com/karmadog72/CMS-BLOG",
+      guide: "https://www.psychologytoday.com/us/basics/anxiety",
       meditate: "https://murmuring-meadow-54235.herokuapp.com/",
     },
     {
