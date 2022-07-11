@@ -45,12 +45,17 @@ const MoodCard = () => {
       description:
         "DEFINITION: In a state of general unhappiness or despondency, a mood disorder that causes a persistent feeling of sadness worthlessness, hopelessness, helplessness, pessimism, guilt and or loss of interest. If you are experiencing symptoms of depression such as: Persistent sadness, decreased energy and sleep, irritability or loss of interest in pleasurable activities, please seek help from a mental health professional. ",
       solutions:
-        "Node, Express, Handlebars, MySQL, Rapid API-Spoonacular, Sequelize, Heroku.",
-      list: "stuff and things",
-      list2: "junk & stuff",
-      list3: "stuf",
-      list4: "sthings",
-      list5: "stuff an",
+        "While there are no quick fixes to cure depression, there are ways to help ease symptoms and boost your mood as seen below.",
+      list:
+        "1. Exercise - Temporarily boosts endorphins. Getting into a routine of regular exercise can help rewire the brain into more positive thinking. Yoga & Walking are a great way to start! ",
+      list2:
+        "2. Eating Healthy - Aim to eat fruits and veggies everyday. Foods with omega-3 fatty acids (tuna & salmon) & folic Acid (spinach & avocado) may help ease depression.",
+      list3:
+        "3. Sleep - Aim for 7-8 hrs each night. Make small adjustments if you struggle to sleep, such as : Going to bed & getting up around the same time each day, No Napping, No electronics in the bedroom (TV, Phone etc.). ",
+      list4:
+        "4. Try Something New - Listen to a new genre of music, try painting, do a puzzle, knitting, dog walking, take a cooking class, explore a new place, play a new sport.",
+      list5:
+        "5. Friends Family or Support group- Hang with a friend or family member. Find a support group, it can be helpful to express your feelings with relatable individuals.",
       caption: "😞 DEPRESSED",
       guide: "https://www.psychologytoday.com/us/basics/depression",
       meditate: "https://youtu.be/xRxT9cOKiM8",
