@@ -36,7 +36,8 @@ const MoodCard = () => {
       list4: "4. Write down your feelings in a journal or diary ",
       list5: "5. Hang out with an upbeat family member, friend or even a pet.",
       caption: "😢 SAD",
-      guide: "https://github.com/karmadog72/AL-together",
+      guide:
+        "https://www.psychologytoday.com/us/blog/click-here-happiness/202011/how-deal-sad-feelings",
       meditate: "https://youtu.be/ug26l-2ktxA",
     },
     {
