@@ -65,15 +65,16 @@ const MoodCard = () => {
       description:
         "DEFINITION: Both a mental and physical state of negative expectation, experiencing worry, unease, or nervousness, feelings of dread in anticipation of some bad outcome, jitteriness & racing heart.",
       solutions:
-        "3-3-3 RULE Below are a few quick ways to help ease yourself when feeling anxious. If you are experiencing persistent feelings of anxiety, worry or dread, that interferes with your daily life, please seek help from a mental health professional",
-      list: "stuff and things",
-      list2: "junk & stuff",
-      list3: "stuf",
-      list4: "sthings",
-      list5: "stuff an",
+        "Below are a few quick ways to help ease yourself when feeling anxious. If you are experiencing persistent feelings of anxiety, worry or dread, that interferes with your daily life, please seek help from a mental health professional.",
+      list:
+        "1. 3-3-3 RULE - The 3-3-3 rule is a mindfulness technique, name 3 things you can see, 3 sounds & moving 3 different body parts.  ",
+      list2: "2. 5-4-3-2-1 RULE - The 5-4-3-2-1 rule is a more advanced mindfulness technique, Name 5 things you can see, 4 things to touch, 3 sounds, 2 smells & 1 thing to taste."
+      list3: "3. Music -Listening to soothing music, or singing to your favorite song.",
+      list4: "4. 4-7-8 Breathing - Inhale through your nose 4 seconds. Hold your breath for 7 seconds. Slowly exhale from your mouth for 8 seconds. Repeat 5- 10 times.",
+      list5: "5. Laughter - Laughing is similar to deep breathing in its ability to increase the oxygen in our bodies. Watch a funny video, listen to a funny story from a friend or family member, goof off with your pet, read a funny comic",
       caption: "😨 ANXIOUS",
       guide: "https://www.psychologytoday.com/us/basics/anxiety",
-      meditate: "https://murmuring-meadow-54235.herokuapp.com/",
+      meditate: "https://youtu.be/TXNECaIJPDI",
     },
     {
       mood: "SICK",
