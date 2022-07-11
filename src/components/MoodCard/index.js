@@ -43,7 +43,7 @@ const MoodCard = () => {
     {
       mood: "DEPRESSED",
       description:
-        "DEFINITION: In a state of general unhappiness or despondency,a mood disorder that causes a persistent feeling of sadness worthlessness, hopelessness, helplessness, pessimism, guilt and or loss of interest. ",
+        "DEFINITION: In a state of general unhappiness or despondency, a mood disorder that causes a persistent feeling of sadness worthlessness, hopelessness, helplessness, pessimism, guilt and or loss of interest. If you are experiencing symptoms of depression such as: Persistent sadness, decreased energy and sleep, irritability or loss of interest in pleasurable activities, please seek help from a mental health professional. ",
       solutions:
         "Node, Express, Handlebars, MySQL, Rapid API-Spoonacular, Sequelize, Heroku.",
       list: "stuff and things",
