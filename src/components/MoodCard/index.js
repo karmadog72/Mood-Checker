@@ -80,20 +80,20 @@ const MoodCard = () => {
       guide: "https://www.psychologytoday.com/us/basics/anxiety",
       meditate: "https://youtu.be/TXNECaIJPDI",
     },
-    {
-      mood: "SICK",
-      description:
-        "DEFINITION: Affected with disease or ill health, unwell feeling",
-      solutions: "Script.js, CSS, HTML",
-      list: "stuff and things",
-      list2: "junk & stuff",
-      list3: "stuf",
-      list4: "sthings",
-      list5: "stuff an",
-      caption: "🤢 SICK",
-      guide: "https://github.com/karmadog72/JavaScript-Password-Challenge-",
-      meditate: "https://github.com/karmadog72/JavaScript-Password-Challenge-",
-    },
+    // {
+    //   mood: "SICK",
+    //   description:
+    //     "DEFINITION: Affected with disease or ill health, unwell feeling",
+    //   solutions: "Script.js, CSS, HTML",
+    //   list: "stuff and things",
+    //   list2: "junk & stuff",
+    //   list3: "stuf",
+    //   list4: "sthings",
+    //   list5: "stuff an",
+    //   caption: "🤢 SICK",
+    //   guide: "https://github.com/karmadog72/JavaScript-Password-Challenge-",
+    //   meditate: "https://github.com/karmadog72/JavaScript-Password-Challenge-",
+    // },
 
     {
       mood: "UNEASY / AGITATED",
