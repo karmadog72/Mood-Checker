@@ -96,17 +96,20 @@ const MoodCard = () => {
     // },
 
     {
-      mood: "UNEASY / AGITATED",
+      mood: "AGITATED/ RESTLESS",
       description:
-        "DEFINITION: Causing or feeling anxiety or nervousness; troubled or uncomfortable.",
-      solutions: "HTML, CSS",
-      list: "stuff and things",
+        "DEFINITION: An abnormal mental state of feeling troubled, irritated, annoyed, nervous, unable to rest or relax.",
+      solutions:
+        "Below are a few quick ways to help ease your agitation and or feelings of restlessness. If you are experiencing persistent feelings of agitation & restlessness, that interferes with your daily life, please seek help from a mental health professional.",
+      list:
+        "1. Learn to relax - try meditation, breathing exercises, gentle exercise like yoga or walking in nature & Progressive Muscle Relaxation.",
       list2: "junk & stuff",
       list3: "stuf",
       list4: "sthings",
       list5: "stuff an",
-      caption: "☹️ UNEASY / AGITATED",
-      guide: "https://github.com/karmadog72/portfolio-challenge-",
+      caption: "😫 UNEASY / AGITATED",
+      guide:
+        "https://www.psychologytoday.com/us/blog/troubles-in-mind/201104/agitation-situation#:~:text=Agitation%20refers%20to%20an%20abnormal,mentally%2C%20and%20is%20emotionally%20volatile.",
       meditate: "https://karmadog72.github.io/portfolio-challenge-/",
     },
     {
