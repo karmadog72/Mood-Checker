@@ -103,10 +103,14 @@ const MoodCard = () => {
         "Below are a few quick ways to help ease your agitation and or feelings of restlessness. If you are experiencing persistent feelings of agitation & restlessness, that interferes with your daily life, please seek help from a mental health professional.",
       list:
         "1. Learn to relax - try meditation, breathing exercises, gentle exercise like yoga or walking in nature & Progressive Muscle Relaxation.",
-      list2: "junk & stuff",
-      list3: "stuf",
-      list4: "sthings",
-      list5: "stuff an",
+      list2:
+        "2. Reframe negative thoughts. - Realize that not everything that is happening around you has anything to do with you. Instead, understand that things happen and you cant always control their outcome. Try to think of something more pleasant than the current situation surrounding you. ",
+      list3:
+        "3. Chew Gum. - Chewing gum may help relieve stress. It helps people feel less anxious & stressed an improved their focus and attention.",
+      list4:
+        "4. Take a Break. - Step away from your current situation and do something pleasant to help recharge your batteries. Listening to music, watching a funny video short on youtube, or even quick walk are all great examples.",
+      list5:
+        "5. Friend or Family - Talk to a friend or family member about any increasing feelings of agitation or restlessness, as they may be able to help ease your situation. ",
       caption: "😫 UNEASY / AGITATED",
       guide:
         "https://www.psychologytoday.com/us/blog/troubles-in-mind/201104/agitation-situation#:~:text=Agitation%20refers%20to%20an%20abnormal,mentally%2C%20and%20is%20emotionally%20volatile.",
@@ -131,8 +135,10 @@ const MoodCard = () => {
       description:
         "DEFINITION: Is a sudden episode of intense fear that triggers severe physical reactions when there is no real danger or apparent cause. Can cause increased heart rate, shortness of breath, trembling and muscle tension. ",
       solutions: "HTML, CSS",
-      list: "stuff and things",
-      list2: "junk & stuff",
+      list:
+        "1. Activate the Mammalian Dive Response - Submerging your face (or forehead) in a bowl of cold water, for up to 30 seconds. This tricks your brain into thinking you're diving under water and activates your parasympathetic nervous system (PNS), effectively slowing down your heart rate. This can be very helpful when having a panic attack and your heart is racing.",
+      list2:
+        "Bilateral stimulation, or side-to-side stimulation, is a technique used in EMDR therapy that can help to induce a relaxation response. Sophia V., 26, who has OCD and anxiety, says she’s had success by tapping her hands on opposite shoulders in an alternating pattern. You can tap alternate arms or legs as well.",
       list3: "stuf",
       list4: "sthings",
       list5: "stuff an",
