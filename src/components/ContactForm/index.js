@@ -51,9 +51,9 @@ const ContactForm = (props) => {
               className="resume-button"
               target="_blank"
               rel="noreferrer"
-              href="https://docs.google.com/document/d/10TNbdwt8S-v5pynfZDL_FST3l9nKzCNbYUIo45Ey65I/edit?usp=sharing"
+              href="https://youtu.be/Z6IRLZs4FVM"
             >
-              RESUME 🔗
+              Puppies!!! 🔗
             </a>
           </h2>
         </div>
@@ -65,21 +65,21 @@ const ContactForm = (props) => {
         </button>
       </div>
       <form id="contact-form" onSubmit={handleSubmit}></form>
-      <h2>CONTACT ME: </h2>
+      <h2>STUFF: </h2>
       <p>
         {" "}
-        <a href="tel: +1-801-999-0665" aria-hidden="true">
-          (801) 999-0665 📞
+        <a href="tel: +1-801-999-" aria-hidden="true">
+          (801) 555-5554 📞
         </a>
       </p>
       <p>
         {" "}
         <a
           target="_blank"
-          href="mailto:danika.m.pearson@gmail.com"
+          href="mailto:danika.m.pearson@gmail.m"
           rel="noreferrer"
         >
-          danika.m.pearson@gmail.com 📩
+          Moar stuff 📩
         </a>
       </p>
       <p>
@@ -89,7 +89,7 @@ const ContactForm = (props) => {
           href="https://linkedin.com/in/danika-pearson"
           rel="noreferrer"
         >
-          LinkedIn 🔗
+          Not sure yet🔗
         </a>
       </p>
       <p>⭐More cool stuff in the footer⭐</p>

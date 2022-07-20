@@ -23,7 +23,7 @@ const Navbar = (props) => {
 
           <li className="mx-1">
             <a href="#contact">
-              <span onClick={() => setContactSelected(true)}>RESUME</span>
+              <span onClick={() => setContactSelected(true)}>TBD</span>
             </a>
           </li>
         </ul>

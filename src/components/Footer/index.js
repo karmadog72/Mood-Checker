@@ -6,44 +6,44 @@ const Footer = () => {
       <nav>
         <ul>
           <li>
-            <a href="tel: +1-801-999-0665" aria-hidden="true">
-              (801) 999-0665
+            <a href="tel: +1-801-999-" aria-hidden="true">
+              (801) 999-5554
             </a>
           </li>
           <li>
             <a
               target="_blank"
-              href="mailto:danika.m.pearson@gmail.com"
+              href="mailto:danika.m.pearson@gmail.c"
               rel="noreferrer"
             >
-              danika.m.pearson@gmail.com
+              person@gmail.com
             </a>
           </li>
           <li>
             <a
               target="_blank"
-              href="https://github.com/karmadog72"
+              href="https://github.com/karmado"
               rel="noreferrer"
             >
-              GitHub
+              things
             </a>
           </li>
           <li>
             <a
               target="_blank"
-              href="https://linkedin.com/in/danika-pearson"
+              href="https://linkedin.com/in/danika-pear"
               rel="noreferrer"
             >
-              LinkedIn
+              things & stuff
             </a>
           </li>
           <li>
             <a
               target="_blank"
-              href="https://id.heroku.com/login"
+              href="https://id.heroku.com/log"
               rel="noreferrer"
             >
-              Heroku
+              Hotline?
             </a>
           </li>
           <li></li>
