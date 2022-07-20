@@ -7,7 +7,9 @@ const Affirmations = (props) => {
   return (
     <section className="mood-container">
       <div>
-        <p>AFFIRMATIONS</p>
+        <p>
+          <b>AFFIRMATIONS</b>
+        </p>
         <ul className="mood-list">
           <li>I am enough</li>
           <li>I love myself for who I am</li>

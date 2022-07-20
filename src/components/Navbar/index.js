@@ -8,6 +8,11 @@ const Navbar = (props) => {
       <p>MOOD CHECKER</p>
       <nav>
         <ul>
+          <li>
+            <a href="#projects">
+              <span onClick={() => setAffirmationsSelected(false)}>MOODS</span>
+            </a>
+          </li>
           <li className="mx-2">
             <a href="#affirmations">
               <span onClick={() => setAffirmationsSelected(true)}>
@@ -15,12 +20,6 @@ const Navbar = (props) => {
               </span>
             </a>
           </li>
-          <li>
-            <a href="#projects">
-              <span onClick={() => setAffirmationsSelected(false)}>MOODS</span>
-            </a>
-          </li>
-
           <li className="mx-1">
             <a href="#contact">
               <span onClick={() => setContactSelected(true)}>TBD</span>

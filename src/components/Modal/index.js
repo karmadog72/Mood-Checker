@@ -52,7 +52,7 @@ const Modal = ({ onClose, currentPhoto }) => {
           Meditation
         </a>
         <button type="button" onClick={onClose}>
-          Close
+          X
         </button>
       </div>
     </div>

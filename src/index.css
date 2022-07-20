@@ -17,13 +17,13 @@ body {
   color: rgb(0, 0, 0);
   text-shadow: 1px 1px 2px #ffffff;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: lighter;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* navbar */
 a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -37,6 +37,8 @@ header {
 header p {
   padding-top: 20px;
   letter-spacing: 0.15em;
+  font-weight: bold;
+  font-size: larger;
 }
 
 img {
@@ -54,10 +56,10 @@ header nav ul {
 header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 header nav ul li a:hover {
-  color: hsl(177, 52%, 54%);
+  color: hsl(241, 100%, 57%);
   border-radius: 15px;
   text-shadow: none;
 }
@@ -82,7 +84,7 @@ header nav ul li a:hover {
   position: relative;
   text-align: center;
   font-size: larger;
-  font-weight: bold;
+  font-weight: lighter;
   top: 50%;
   cursor: pointer;
   z-index: 10;
@@ -130,16 +132,16 @@ textarea {
 
 /* modal close btn */
 button {
-  width: 125px;
+  width: 50px;
   height: 50px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(221, 221, 221);
   opacity: 70%;
   color: rgb(0, 0, 0);
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(173, 173, 173);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin-right: 20px;
-  border-radius: 45%;
+  border-radius: 50%;
 }
 /* resume close btn */
 .close-button {
@@ -220,7 +222,7 @@ footer nav ul {
 footer nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 footer nav ul li a:hover {
@@ -234,14 +236,14 @@ footer nav ul li a:hover {
   background-color: hsla(182, 100%, 72%, 0.856);
   opacity: 80%;
   color: rgb(0, 0, 0);
-  border: 1px solid white;
-  border-radius: 47%;
+  border: 2px solid white;
+  border-radius: 10%;
   font-family: Arial, Helvetica, sans-serif;
   margin-right: 20px;
 }
 
 .modal-backdrop {
-  background: hsla(29, 100%, 90%, 0.969);
+  background: hsla(0, 0%, 100%, 0.952);
   bottom: 0;
   left: 0;
   overflow: auto;
