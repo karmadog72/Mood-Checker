@@ -231,7 +231,7 @@ footer nav ul li a:hover {
 
 .modal-button {
   padding: 15px 20px;
-  background-color: hsl(180, 100%, 50%);
+  background-color: hsla(182, 100%, 72%, 0.856);
   opacity: 80%;
   color: rgb(0, 0, 0);
   border: 1px solid white;
@@ -241,7 +241,7 @@ footer nav ul li a:hover {
 }
 
 .modal-backdrop {
-  background: rgb(243, 230, 247);
+  background: hsla(29, 100%, 90%, 0.969);
   bottom: 0;
   left: 0;
   overflow: auto;

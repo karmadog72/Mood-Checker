@@ -114,13 +114,14 @@ const MoodCard = () => {
       caption: "😫 UNEASY / AGITATED",
       guide:
         "https://www.psychologytoday.com/us/blog/troubles-in-mind/201104/agitation-situation#:~:text=Agitation%20refers%20to%20an%20abnormal,mentally%2C%20and%20is%20emotionally%20volatile.",
-      meditate: "https://karmadog72.github.io/portfolio-challenge-/",
+      meditate: "https://youtu.be/ClqPtWzozXs",
     },
     {
       mood: "STRESSED / OVERWHELMED",
       description:
         "DEFINITION: Experiencing mental or emotional strain or tension; an overpowering or excessive amount of anything:",
-      solutions: "HTML, CSS",
+      solutions:
+        "Below are a few quick ways to help you feel less overwhelmed and stressed. If you are frequently feeling overwhelmed and or stressed, so much that it interferes with your daily life, please seek help from a mental health professional.",
       list: "stuff and things",
       list2: "junk & stuff",
       list3: "stuf",
