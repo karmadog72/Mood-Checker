@@ -102,7 +102,8 @@ header nav ul li a:hover {
 .hotline-container {
   width: 500px;
   height: 600px;
-  background-color: rgb(162, 176, 255);
+  background-color: rgb(255, 233, 204);
+  border: 1px solid rgb(255, 255, 255);
   padding: 10px 30px 0 30px;
   position: absolute;
   top: 0;
@@ -143,13 +144,15 @@ button {
   margin-right: 20px;
   border-radius: 50%;
 }
-/* resume close btn */
+/* hotline close btn */
 .close-button {
-  width: 30px;
+  width: 35px;
   height: 30px;
+  border-radius: 50%;
   margin: 25px 0 0 70px;
   border: none;
   background-color: white;
+  border: 1px solid rgb(0, 0, 0);
   font-size: inherit;
 }
 
