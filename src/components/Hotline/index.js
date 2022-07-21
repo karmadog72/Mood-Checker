@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/emailValidate";
 
-const ContactForm = (props) => {
-  const { setContactSelected } = props;
+const Hotline = (props) => {
+  const { setHotlineSelected } = props;
 
   const [formState, setFormState] = useState({
     name: "",
@@ -39,12 +39,12 @@ const ContactForm = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setContactSelected(false);
+    setHotlineSelected(false);
   };
 
   return (
-    <section className="contact-container">
-      <div className="contact-header">
+    <section className="hotline-container">
+      <div className="hotline-header">
         <div>
           <h2>
             <a
@@ -59,17 +59,17 @@ const ContactForm = (props) => {
         </div>
         <button
           className="close-button"
-          onClick={() => setContactSelected(false)}
+          onClick={() => setHotlineSelected(false)}
         >
           X
         </button>
       </div>
-      <form id="contact-form" onSubmit={handleSubmit}></form>
-      <h2>STUFF: </h2>
+      <form id="hotline" onSubmit={handleSubmit}></form>
+      <h2>NATIONAL ALLIANCE on MENTAL ILLNESS </h2>
       <p>
         {" "}
-        <a href="tel: +1-801-999-" aria-hidden="true">
-          (801) 555-5554 📞
+        <a href="tel: +1-800-950-6264" aria-hidden="true">
+          1-800-950-NAMI (6264) 📞
         </a>
       </p>
       <p>
@@ -97,4 +97,4 @@ const ContactForm = (props) => {
   );
 };
 
-export default ContactForm;
+export default Hotline;

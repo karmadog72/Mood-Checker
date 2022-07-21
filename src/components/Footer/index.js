@@ -6,8 +6,8 @@ const Footer = () => {
       <nav>
         <ul>
           <li>
-            <a href="tel: +1-801-999-" aria-hidden="true">
-              (801) 999-5554
+            <a href="tel: +1-800-950-6264" aria-hidden="true">
+              1-800-950-NAMI (6264)
             </a>
           </li>
           <li>

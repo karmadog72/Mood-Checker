@@ -2,7 +2,7 @@ import React from "react";
 import Me from "../../assets/me.png";
 
 const Affirmations = (props) => {
-  const { setContactSelected } = props;
+  const { setHotlineSelected } = props;
 
   return (
     <section className="mood-container">

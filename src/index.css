@@ -99,9 +99,9 @@ header nav ul li a:hover {
   opacity: 1;
 }
 
-.contact-container {
+.hotline-container {
   width: 500px;
-  height: 50vh;
+  height: 500px;
   background-color: rgb(162, 176, 255);
   padding: 10px 30px 0 30px;
   position: absolute;
@@ -110,7 +110,7 @@ header nav ul li a:hover {
   z-index: 10;
 }
 
-.contact-header {
+.hotline-header {
   display: inline-flex;
 }
 
@@ -272,10 +272,10 @@ footer nav ul li a:hover {
   padding: 15px 25px 0px;
 }
 @media (max-width: 576px) {
-  .contact-container {
+  .hotline-container {
     width: 90%;
   }
-  .contact-container a {
+  .hotline-container a {
     display: block;
     margin-top: 20px;
     position: static;

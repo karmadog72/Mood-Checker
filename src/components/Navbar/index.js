@@ -1,7 +1,7 @@
 import React from "react";
 
 const Navbar = (props) => {
-  const { setAffirmationsSelected, setContactSelected } = props;
+  const { setAffirmationsSelected, setHotlineSelected } = props;
 
   return (
     <header>
@@ -21,8 +21,8 @@ const Navbar = (props) => {
             </a>
           </li>
           <li className="mx-1">
-            <a href="#contact">
-              <span onClick={() => setContactSelected(true)}>TBD</span>
+            <a href="#hotline">
+              <span onClick={() => setHotlineSelected(true)}>HELP HOTLINE</span>
             </a>
           </li>
         </ul>
