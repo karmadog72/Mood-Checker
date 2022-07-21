@@ -51,9 +51,9 @@ const Hotline = (props) => {
               className="resume-button"
               target="_blank"
               rel="noreferrer"
-              href="https://youtu.be/Z6IRLZs4FVM"
+              href="https://www.nami.org/help"
             >
-              Puppies!!! 🔗
+              National Alliance on Mental Illness 🔗
             </a>
           </h2>
         </div>
@@ -65,34 +65,38 @@ const Hotline = (props) => {
         </button>
       </div>
       <form id="hotline" onSubmit={handleSubmit}></form>
-      <h2>NATIONAL ALLIANCE on MENTAL ILLNESS </h2>
+      <p>
+        {" "}
+        <a
+          target="_blank"
+          href="https://www.crisistextline.org/"
+          rel="noreferrer"
+        >
+          🔗<b>Crisis Text Line:</b> <br /> Text HOME to 741741📲
+        </a>
+      </p>
       <p>
         {" "}
         <a href="tel: +1-800-950-6264" aria-hidden="true">
-          1-800-950-NAMI (6264) 📞
+          <b>Talk</b> to someone @ the NAMI hotline: <br /> 1-800-950-NAMI
+          (6264) 📞
         </a>
       </p>
       <p>
         {" "}
-        <a
-          target="_blank"
-          href="mailto:danika.m.pearson@gmail.m"
-          rel="noreferrer"
-        >
-          Moar stuff 📩
+        <a target="_blank" href="mailto:helpline@nami.org" rel="noreferrer">
+          <b>Email</b> someone through the NAMI HelpLine 📩
         </a>
       </p>
+
       <p>
-        {" "}
-        <a
-          target="_blank"
-          href="https://linkedin.com/in/danika-pearson"
-          rel="noreferrer"
-        >
-          Not sure yet🔗
+        <b>National Suicide Prevention Lifeline:</b>{" "}
+        <a href="tel: +1-800-950-6264" aria-hidden="true">
+          <b>Call</b> 1-800-273-TALK (8255) 📞 <br /> <br />
+          *If you or someone you know is in crisis, whether they are considering
+          suicide or not, please call the toll-free Lifeline.*
         </a>
       </p>
-      <p>⭐More cool stuff in the footer⭐</p>
     </section>
   );
 };
