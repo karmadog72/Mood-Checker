@@ -12,7 +12,7 @@ body {
   padding: 0;
   line-height: 1.5;
   letter-spacing: 0.1em;
-  background: rgb(4, 5, 46);
+  background: rgb(255, 255, 255);
   /* body text color */
   color: rgb(0, 0, 0);
   text-shadow: 1px 1px 2px #ffffff;
@@ -203,15 +203,15 @@ li {
 
 footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 footer p {
   font-variant: normal;
   letter-spacing: 0.15em;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 footer nav ul {
@@ -223,13 +223,21 @@ footer nav ul {
 }
 
 footer nav ul li a {
+  text-align: center;
   padding: 10px 15px;
+  font-size: 15px;
   font-weight: lighter;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+footer nav ul li a p {
+  text-align: center;
+  padding: 10px 15px;
+  font-weight: lighter;
+  text-shadow: 0 0 10px rgba(216, 9, 9, 0.2);
+}
 
 footer nav ul li a:hover {
-  color: hsl(0, 0%, 3%);
+  color: hsl(0, 81%, 43%);
   border-radius: 15px;
   text-shadow: none;
 }

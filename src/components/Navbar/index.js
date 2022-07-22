@@ -22,7 +22,9 @@ const Navbar = (props) => {
           </li>
           <li className="mx-1">
             <a href="#hotline">
-              <span onClick={() => setHotlineSelected(true)}>HELP HOTLINE</span>
+              <span onClick={() => setHotlineSelected(true)}>
+                HELP HOTLINES
+              </span>
             </a>
           </li>
         </ul>

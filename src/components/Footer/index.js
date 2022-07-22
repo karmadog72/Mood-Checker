@@ -6,46 +6,30 @@ const Footer = () => {
       <nav>
         <ul>
           <li>
-            <a href="tel: +1-800-950-6264" aria-hidden="true">
-              1-800-950-NAMI (6264)
+            <a href="tel: +999" aria-hidden="true">
+              EMERGENCY | POLICE
+              <p> 911</p>
             </a>
           </li>
           <li>
-            <a
-              target="_blank"
-              href="mailto:danika.m.pearson@gmail.c"
-              rel="noreferrer"
-            >
-              person@gmail.com
+            <a href="tel: +1-800-799-7233" aria-hidden="true">
+              NTL Domestic Violence
+              <p>1-800-799-SAFE (7233)</p>
             </a>
           </li>
           <li>
-            <a
-              target="_blank"
-              href="https://github.com/karmado"
-              rel="noreferrer"
-            >
-              things
+            <a href="tel: +1-800-656-4673" aria-hidden="true">
+              NTL Sexual Assault
+              <p>1-800-656-HOPE (4673)</p>
             </a>
           </li>
           <li>
-            <a
-              target="_blank"
-              href="https://linkedin.com/in/danika-pear"
-              rel="noreferrer"
-            >
-              things & stuff
+            <a href="tel: +1-800-273-8255" aria-hidden="true">
+              NTL Suicide Prevention
+              <p>1-800-273-TALK (8255)</p>
             </a>
           </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://id.heroku.com/log"
-              rel="noreferrer"
-            >
-              Hotline?
-            </a>
-          </li>
+
           <li></li>
         </ul>
       </nav>
