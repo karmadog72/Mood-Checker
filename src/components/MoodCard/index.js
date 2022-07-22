@@ -96,7 +96,7 @@ const MoodCard = () => {
     // },
 
     {
-      mood: "AGITATED/ RESTLESS",
+      mood: "AGITATED | RESTLESS",
       description:
         "DEFINITION: An abnormal mental state of feeling troubled, irritated, annoyed, nervous, unable to rest or relax.",
       solutions:
@@ -111,13 +111,13 @@ const MoodCard = () => {
         "4. Take a Break. - Step away from your current situation and do something pleasant to help recharge your batteries. Listening to music, watching a funny video short on youtube, or even quick walk are all great examples.",
       list5:
         "5. Friend or Family - Talk to a friend or family member about any increasing feelings of agitation or restlessness, as they may be able to help ease your situation. ",
-      caption: "😫 UNEASY / AGITATED",
+      caption: "😫 UNEASY | AGITATED",
       guide:
         "https://www.psychologytoday.com/us/blog/troubles-in-mind/201104/agitation-situation#:~:text=Agitation%20refers%20to%20an%20abnormal,mentally%2C%20and%20is%20emotionally%20volatile.",
       meditate: "https://youtu.be/ClqPtWzozXs",
     },
     {
-      mood: "STRESSED / OVERWHELMED",
+      mood: "STRESSED | OVERWHELMED",
       description:
         "DEFINITION: Experiencing mental or emotional strain or tension; an overpowering or excessive amount of anything:",
       solutions:
@@ -130,7 +130,7 @@ const MoodCard = () => {
       list4: "4.  - ",
       list5:
         "5. Ask for help - Depending on the situation, reach out to a friend, family or coworker for help.",
-      caption: "😖 STRESSED / OVERWHELMED",
+      caption: "😖 STRESSED | OVERWHELMED",
       guide: "https://github.com/karmadog72/portfolio-challenge-",
       meditate: "https://karmadog72.github.io/portfolio-challenge-/",
     },
@@ -165,7 +165,7 @@ const MoodCard = () => {
       meditate: "https://karmadog72.github.io/portfolio-challenge-/",
     },
     {
-      mood: "SUICIDAL",
+      mood: "SUICIDAL | CRISIS",
       description:
         "DEFINITION: Thinking about or planning suicide; Deeply unhappy or depressed and likely to commit suicide.",
       solutions: "HTML, CSS",
@@ -174,12 +174,12 @@ const MoodCard = () => {
       list3: "3.  - ",
       list4: "4.  - ",
       list5: "5.  - ",
-      caption: "💀 SUICIDAL",
+      caption: "🆘 SUICIDAL | CRISIS",
       guide: "https://github.com/karmadog72/portfolio-challenge-",
       meditate: "https://karmadog72.github.io/portfolio-challenge-/",
     },
     {
-      mood: "HAPPY / CONTENT",
+      mood: "HAPPY | CONTENT",
       description:
         "DEFINITION: Feeling or showing pleasure or contentment; A state of satisfaction.",
       solutions: "HTML, CSS",
@@ -188,7 +188,7 @@ const MoodCard = () => {
       list3: "3.  - ",
       list4: "4.  - ",
       list5: "5.  - ",
-      caption: " 😁 HAPPY / CONTENT ",
+      caption: " 😁 HAPPY | CONTENT ",
       guide: "https://github.com/karmadog72/portfolio-challenge-",
       meditate: "https://karmadog72.github.io/portfolio-challenge-/",
     },
